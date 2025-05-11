@@ -58,3 +58,62 @@ Dataset source: [Airbnb Open Data on Kaggle](https://www.kaggle.com/datasets/air
 ```bash
 git clone https://github.com/a4ahad/airbnb-eda.git
 cd airbnb-eda
+```
+2. Create and activate a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## 🚀 Usage
+Open the Jupyter notebook:
+
+```bash
+jupyter notebook airbnb_analysis.ipynb
+```
+Run cells sequentially to:
+- Load and clean the data
+- Perform statistical analysis
+- Generate visualizations
+
+## 🔑 Key Findings
+Pricing Insights
+- Average listing price: $120
+- Most listings (68%) priced between 80−200/night
+- Luxury listings (>$300) represent only 5% of inventory
+
+Property Trends
+- Entire homes/apartments most common (55%)
+- Private rooms account for 40% of listings
+- Shared rooms are rare (5%)
+
+Location Impact
+
+- Downtown areas command 25-30% price premium
+- Beachfront properties priced 40% higher on average
+
+## 📊 Visualizations
+Figure	Description
+- Price Distribution	Distribution of listing prices
+- Room Types	Breakdown of property types
+- Neighborhood Prices	Price variations by location
+
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the project
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+## 📧 Contact
+[Md Abdul Ahad] - [a4ahad@gmail.com]
+
+Project Link: https://github.com/a4ahad/airbnb-eda
