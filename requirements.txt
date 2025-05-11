@@ -1,0 +1,20 @@
+# Core Data Science Packages
+numpy==1.23.5
+pandas==1.5.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Jupyter Notebook Support
+jupyter==1.0.0
+ipykernel==6.22.0
+
+# Data Processing
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Optional (for extended analysis)
+scipy==1.10.1          # Advanced statistics
+geopandas==0.12.2      # Geographic analysis (if doing mapping)
+wordcloud==1.9.2       # Text analysis of reviews
