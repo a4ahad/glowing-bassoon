@@ -56,5 +56,5 @@ Dataset source: [Airbnb Open Data on Kaggle](https://www.kaggle.com/datasets/air
 ## ⚙️ Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/airbnb-eda.git
+git clone https://github.com/a4ahad/airbnb-eda.git
 cd airbnb-eda
